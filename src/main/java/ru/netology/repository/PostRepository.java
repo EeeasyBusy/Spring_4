@@ -1,5 +1,6 @@
 package ru.netology.repository;
 
+import org.springframework.stereotype.Repository;
 import ru.netology.model.Post;
 
 import java.util.HashMap;
@@ -7,6 +8,7 @@ import java.util.Map;
 import java.util.Optional;
 
 // Stub
+@Repository
 public class PostRepository {
     public long count = 0L;
     Map<Long, Post> postMap = new HashMap<>();
