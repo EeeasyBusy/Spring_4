@@ -1,6 +1,6 @@
 package ru.netology.repository;
 
-import ru.netology.model.Post;
+import ru.netology.exception.model.Post;
 
 import java.util.HashMap;
 import java.util.Map;
